@@ -134,6 +134,11 @@ console.log(60 * 31);//1860*/
     <p class="a">Абзац с классом a.</p>
     <p>Просто абзац, не поменяется.</p>
     <input type="submit" onclick="func()">*/
-    <script src="script.js"></script>
+ /*Задача1.*/
+ function buttonclick(){
+    let elem = document.getElementById('elem');
+    elem.innerHTML = 'Ку-ку А я жирный';
+ } 
+
  
  
