@@ -109,3 +109,4 @@ let num = 10;
  num ++ ;//11
  num -- ;//9
  console.log(num);
+45
