@@ -7,7 +7,7 @@
 // 75 + 'кг'
 // Результаты переменных вывести в console.log();
 
-let b1 = 5 % 3; //2
+/*let b1 = 5 % 3; //2
 let b2 = 3 % 5; //3
 let b3 = 5 + '3'; //53
 let b4 = '5' - 3; //2
@@ -27,60 +27,60 @@ let heightC = 10;
 let dc = 4;
 let v;
 v = heightC * dc;
-console.log(v);
+console.log(v);*/
 
 // Пример №3
 // Создайте переменные a=10 и b=2. Выведите на экран их сумму, разность, произведение и частное (результат деления).
-let a = 10;
+/*let a = 10;
 let b = 2;
-console.log(a * b, a / b);//20 , //5
+console.log(a * b, a / b);//20 , //5*/
 // Пример №4
 //  Создайте переменные c=15 и d=2. Просуммируйте их, а результат присвойте переменной result. 
 //  Выведите на экран значение переменной result.
-let c = 15;
+/*let c = 15;
 let d = 2;
 let result1 = c + d;
-console.log(result1);//17
+console.log(result1);//17*/
 
 // Пример №5
 //  Создайте переменные a=10, b=2 и c=5. Выведите на экран их сумму.
 
-let y = 10;
+/*let y = 10;
 let x = 2;
 let r = 5;
 let result = y + x + r;
-console.log(result);//17
+console.log(result);//17*/
 
 // Пример №6
 //  Создайте переменные a=17 и b=10. Отнимите от a переменную b и результат присвойте переменной c. 
 //  Затем создайте переменную d, присвойте ей значение 7. Сложите переменные c и d, а результат 
 //  запишите в переменную result. Выведите на экран значение переменной result.
-let a3 = 17;
+/*let a3 = 17;
 let b6 = 10;
 let c1 = 7;
-let d1 = 7;
-let result2 = c1 + d1;
-console.log(result2);//14
+let d1 = 7;*/
+/*let result2 = c1 + d1;
+console.log(result2);//14*/
 // Пример №7
 // Создайте переменную name и присвойте ей ваше имя. Выведите на экран фразу 'Привет, (Имя)!'.
-let name = 'Vasil';
-console.log('hi, Vasil!');
+/*let name = 'Vasil';
+console.log('hi, Vasil!');*/
 // Пример №8
 // Создайте переменную age и присвойте ей ваш возраст. Выведите на экран 'Мне (Возраст) лет!'.
-let age = 37;
-console.log('I am 37 years old');
+/*let age = 37;
+console.log('I am 37 years old');*/
 // Пример №9
 // Создайте переменную str и присвойте ей значение 'abcde'. Обращаясь к отдельным символам этой строки выведите 
 // на экран символ 'a', символ 'c', символ 'e'.
-let str = 'abcde';
+/*let str = 'abcde';
 console.log(str[0]);
 console.log(str[2]);
-console.log(str[4]);
+console.log(str[4]);*/
 //Пример №10
 // Напишите скрипт, который считает количество секунд в часе, в сутках, в месяце.
-console.log(60 * 60);//3600
+/*console.log(60 * 60);//3600
 console.log(60 * 24);//1440
-console.log(60 * 31);//1860
+console.log(60 * 31);//1860*/
 //Пример №11
 //Переделайте этот код так, чтобы в нем использовались операции +=, -=, *=, /=. 
 // Количество строк кода при этом не должно измениться.
@@ -104,9 +104,36 @@ console.log(60 * 31);//1860
 // num = num + 1;
 // num = num - 1;
 // console.log(num);
-let num = 10;
+/*let num = 10;
  num = num + 1;//11
  num ++ ;//11
  num -- ;//9
- console.log(num);
-45
+ console.log(num);*/
+ /* <h1>Задача 1</h1>
+    <button onclick="buttonClick()">Нажми на меня</button>
+    <span id="elem">Это span с текстом.</span>*/
+    
+    /*<!-- <h1>Задача 2</h1>
+    <button onclick="buttonClick()">Нажми на меня</button>
+    <span id="elem">Это span с текстом.</span> -->
+    <!-- <h1>Задача 3</h1>
+    <h2>Заголовок, не поменяется.</h2>
+    <p>Абзац, поменяется.</p>
+    <p>Абзац, поменяется.</p>
+    <p>Абзац, поменяется.</p>
+    <input type="submit" onclick="func()"> -->
+    <!-- <h1>Задача 4</h1>
+    <h2 class="a">Заголовок с классом a.</h2>
+    <p class="a">Абзац с классом a.</p>
+    <p class="a">Абзац с классом a.</p>
+    <p>Просто абзац, не поменяется.</p>
+    <input type="submit" onclick="func()"> 
+    <h1>Задача 5</h1>
+    <h2 class="a">Заголовок с классом a, не поменяется.</h2>
+    <p class="a">Абзац с классом a.</p>
+    <p class="a">Абзац с классом a.</p>
+    <p>Просто абзац, не поменяется.</p>
+    <input type="submit" onclick="func()">*/
+    <script src="script.js"></script>
+ 
+ 
