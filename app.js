@@ -116,6 +116,7 @@ console.log(60 * 31);//1860*/
     /*<!-- <h1>Задача 2</h1>
     <button onclick="buttonClick()">Нажми на меня</button>
     <span id="elem">Это span с текстом.</span> -->
+
     <!-- <h1>Задача 3</h1>
     <h2>Заголовок, не поменяется.</h2>
     <p>Абзац, поменяется.</p>
@@ -134,11 +135,40 @@ console.log(60 * 31);//1860*/
     <p class="a">Абзац с классом a.</p>
     <p>Просто абзац, не поменяется.</p>
     <input type="submit" onclick="func()">*/
- /*Задача1.*/
- function buttonclick(){
+
+    /*Задача1.*/
+ /*function buttonclick(){
     let elem = document.getElementById('elem');
     elem.innerHTML = 'Ку-ку А я жирный';
- } 
+ }*/ 
+
+/*Задача 2.*/
+
+/*function buttonClick(){
+   let elem = document.getElementById('elem');
+   elem.innerHTML = 'Абзац превратился в H3!';
+   elem.outerHTML = '<h3>'+elem.innerHTML+'</h3>';
+}*/
+
+/*ЗАДАЧА3.
+function buttonclick(){
+  let elem = document.getElementById('elem');
+  elem.outerHTML = '<h3>'+elem.innerHTML+'</h3>';
+}*/
+
+/*Задача4.*/
+function func(){
+   let elems = document.getElementsByTagName('p');
+   for(let i = 0; i<elems.length; i++){
+      elems[i].innerHTML = i+1;
+   }
+}
+
+/*Задача5*/
+   
+
+
+
 
  
  
